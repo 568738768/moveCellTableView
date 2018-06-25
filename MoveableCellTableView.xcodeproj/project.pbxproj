@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		E4BA688320E0C5CF003FDDAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA688220E0C5CF003FDDAD /* AppDelegate.m */; };
-		E4BA688620E0C5CF003FDDAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA688520E0C5CF003FDDAD /* ViewController.m */; };
 		E4BA688920E0C5CF003FDDAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BA688720E0C5CF003FDDAD /* Main.storyboard */; };
 		E4BA688B20E0C5D1003FDDAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BA688A20E0C5D1003FDDAD /* Assets.xcassets */; };
 		E4BA688E20E0C5D1003FDDAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BA688C20E0C5D1003FDDAD /* LaunchScreen.storyboard */; };
 		E4BA689120E0C5D1003FDDAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA689020E0C5D1003FDDAD /* main.m */; };
+		E4BA689D20E0C60B003FDDAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA689820E0C60A003FDDAD /* ViewController.m */; };
+		E4BA689E20E0C60B003FDDAD /* LSMovableCellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA689920E0C60B003FDDAD /* LSMovableCellTableView.m */; };
+		E4BA689F20E0C60B003FDDAD /* CustomMoveCellTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BA689B20E0C60B003FDDAD /* CustomMoveCellTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E4BA687E20E0C5CF003FDDAD /* MoveableCellTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveableCellTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BA688120E0C5CF003FDDAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4BA688220E0C5CF003FDDAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E4BA688420E0C5CF003FDDAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E4BA688520E0C5CF003FDDAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E4BA688820E0C5CF003FDDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4BA688A20E0C5D1003FDDAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4BA688D20E0C5D1003FDDAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4BA688F20E0C5D1003FDDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4BA689020E0C5D1003FDDAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4BA689720E0C60A003FDDAD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../LSMovableCellTableView/LSMovableCellTableView/ViewController.h; sourceTree = "<group>"; };
+		E4BA689820E0C60A003FDDAD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../LSMovableCellTableView/LSMovableCellTableView/ViewController.m; sourceTree = "<group>"; };
+		E4BA689920E0C60B003FDDAD /* LSMovableCellTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSMovableCellTableView.m; sourceTree = "<group>"; };
+		E4BA689A20E0C60B003FDDAD /* CustomMoveCellTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMoveCellTableView.h; sourceTree = "<group>"; };
+		E4BA689B20E0C60B003FDDAD /* CustomMoveCellTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMoveCellTableView.m; sourceTree = "<group>"; };
+		E4BA689C20E0C60B003FDDAD /* LSMovableCellTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMovableCellTableView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 			children = (
 				E4BA688120E0C5CF003FDDAD /* AppDelegate.h */,
 				E4BA688220E0C5CF003FDDAD /* AppDelegate.m */,
-				E4BA688420E0C5CF003FDDAD /* ViewController.h */,
-				E4BA688520E0C5CF003FDDAD /* ViewController.m */,
+				E4BA689720E0C60A003FDDAD /* ViewController.h */,
+				E4BA689820E0C60A003FDDAD /* ViewController.m */,
+				E4BA689A20E0C60B003FDDAD /* CustomMoveCellTableView.h */,
+				E4BA689B20E0C60B003FDDAD /* CustomMoveCellTableView.m */,
+				E4BA689C20E0C60B003FDDAD /* LSMovableCellTableView.h */,
+				E4BA689920E0C60B003FDDAD /* LSMovableCellTableView.m */,
 				E4BA688720E0C5CF003FDDAD /* Main.storyboard */,
 				E4BA688A20E0C5D1003FDDAD /* Assets.xcassets */,
 				E4BA688C20E0C5D1003FDDAD /* LaunchScreen.storyboard */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BA688620E0C5CF003FDDAD /* ViewController.m in Sources */,
+				E4BA689F20E0C60B003FDDAD /* CustomMoveCellTableView.m in Sources */,
 				E4BA689120E0C5D1003FDDAD /* main.m in Sources */,
+				E4BA689D20E0C60B003FDDAD /* ViewController.m in Sources */,
 				E4BA688320E0C5CF003FDDAD /* AppDelegate.m in Sources */,
+				E4BA689E20E0C60B003FDDAD /* LSMovableCellTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
