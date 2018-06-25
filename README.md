@@ -1,3 +1,3 @@
 # moveCellTableView
 
-canMoveSection属性为自定义可以移动的section, 不设置默认所有section都可移动
+canMoveSection属性为自定义可以移动的section, 不设置默认所有section的cell都可移动
